@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ 	xmlns:umadsdk="http://schemas.android.com/apk/res/tiger.unfamous"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/common_bg_color" >
+    
+	<include layout="@layout/custom_title" />
+
+    <!-- ProgressBar android:id="@+id/header"
+	   android:layout_width="wrap_content"
+	   android:layout_height="wrap_content"
+	   android:indeterminateOnly="true"
+	   /-->
+
+    <LinearLayout android:id="@+id/header"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#eaeaea"
+        android:gravity="center" >
+        
+		<TextView android:id="@+id/currentdir"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+	        android:textColor="#223322"
+	        android:textSize="18sp"
+	        android:paddingLeft="9dp"
+	        android:paddingTop="8dp"
+	        android:paddingBottom="8dp"
+	        android:ellipsize="start"
+	        android:singleLine="true"
+	        android:layout_weight="1.0" />
+			
+		<Button android:id="@+id/updir"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_marginTop="2dp"
+		    android:layout_gravity="center_vertical" />
+	</LinearLayout >
+
+	<!-- View
+	    android:id="@+id/separatorleft"
+        android:layout_height="0.5dp"
+        android:layout_width="fill_parent"
+		android:background="#dddddd" /-->
+
+    <ListView android:id="@+id/songslist"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.0"
+        android:cacheColorHint="#00000000" />
+
+<include layout="@layout/adview_ad" />
+</TableLayout>

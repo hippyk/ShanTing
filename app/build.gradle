@@ -1,0 +1,33 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 21
+    buildToolsVersion '27.0.3'
+    defaultConfig {
+        applicationId "tiger.unfamous"
+        minSdkVersion 8
+        targetSdkVersion 21
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+//            proguardFiles 'proguard.cfg'
+        }
+    }
+}
+
+dependencies {
+    api files('libs/AdsMOGO_Android_SDK_1.2.5.jar')
+    api files('libs/AppOffer_1.8.3_shanting.jar')
+    api files('libs/Baidu_MobAds_SDK_Agg_3.0.jar')
+    api files('libs/InMobiAdNetwork_3.6.2.jar')
+    api files('libs/alipay_plugin.jar')
+    api files('libs/annotations.jar')
+    api files('libs/libammsdk.jar')
+    api files('libs/tencent_openapi.jar')
+    api files('libs/umeng_sdk.jar')
+    api files('libs/apache-httpcomponents-httpcore.jar')
+    api files('libs/gson-1.6.jar')
+    api files('libs/apache-httpcomponents-httpclient.jar')
+}

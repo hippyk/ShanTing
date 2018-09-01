@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="app/src/main/java"/>
+	<classpathentry kind="lib" path="app/libs/AdsMOGO_Android_SDK_1.2.5.jar"/>
+	<classpathentry kind="lib" path="app/libs/alipay_plugin.jar"/>
+	<classpathentry kind="lib" path="app/libs/annotations.jar"/>
+	<classpathentry kind="lib" path="app/libs/apache-httpcomponents-httpclient.jar"/>
+	<classpathentry kind="lib" path="app/libs/apache-httpcomponents-httpcore.jar"/>
+	<classpathentry kind="lib" path="app/libs/AppOffer_1.8.3_shanting.jar"/>
+	<classpathentry kind="lib" path="app/libs/Baidu_MobAds_SDK_Agg_3.0.jar"/>
+	<classpathentry kind="lib" path="app/libs/gson-1.6.jar"/>
+	<classpathentry kind="lib" path="app/libs/InMobiAdNetwork_3.6.2.jar"/>
+	<classpathentry kind="lib" path="app/libs/libammsdk.jar"/>
+	<classpathentry kind="lib" path="app/libs/tencent_openapi.jar"/>
+	<classpathentry kind="lib" path="app/libs/umeng_sdk.jar"/>
+	<classpathentry kind="lib" path="gradle/wrapper/gradle-wrapper.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

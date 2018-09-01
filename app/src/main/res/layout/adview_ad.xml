@@ -1,0 +1,18 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android" >
+   <LinearLayout android:layout_width="fill_parent"
+        android:id="@+id/adParent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#FFFFFF" >
+        
+    <LinearLayout
+        android:id="@+id/adLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="#FFFFFF" 
+        />
+
+    </LinearLayout>
+</merge>

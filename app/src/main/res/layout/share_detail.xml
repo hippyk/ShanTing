@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TableLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/share_bg" >
+
+        <include layout="@layout/custom_title_no_playing" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/share_qzone"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="8dp"
+                android:text="分享内容："
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#ff000000" />
+
+            <EditText
+                android:id="@+id/share_content"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text_view"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:hint="分享内容"
+                android:inputType="textMultiLine"
+                android:maxLines="10"
+                android:textSize="18sp" />
+
+            <CheckBox
+                android:id="@+id/share_qfollow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/share_content"
+                android:checked="true"
+                android:text="@string/share_follow_qweibo"
+                android:textColor="#ffb5d77b"
+                android:textSize="17sp" />
+
+            <Button
+                android:id="@+id/share_do"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignRight="@id/share_content"
+                android:layout_below="@id/share_content"
+                android:text="分享"
+                android:textSize="20sp" />
+        </RelativeLayout>
+    </TableLayout>
+
+    <include layout="@layout/night_mask" />
+
+</RelativeLayout>

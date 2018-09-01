@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:adsmogo="http://www.adsmogo.com"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    
+    <include layout="@layout/custom_title" />
+    
+    <ListView android:id="@+id/songslist"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:layout_weight="1.0"         
+    	  android:background="@color/common_bg_color"
+          android:cacheColorHint="#00000000" /> 
+
+    <include layout="@layout/adview_ad" />
+	<!-- 此处用非代码方式，大大减少启动时超时黑屏的几率>
+    <com.adsmogo.adview.AdsMogoLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        adsmogo:appid="0235354b58aa4bbb95f44da0b6f0c99d" >
+    </com.adsmogo.adview.AdsMogoLayout-->
+</TableLayout>

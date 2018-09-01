@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>       
+ <ScrollView
+     
+	xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="fill_parent"
+     android:layout_height="fill_parent"
+     android:background="@drawable/isw_main_bg"
+     >  
+<RelativeLayout  
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent" 
+	>
+	
+		<TextView 
+              android:textColor="#ffffff"
+              android:text="软件设置"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content" 
+              android:textSize="18sp"
+              android:layout_marginLeft="0dp"
+              android:layout_marginTop="0dp"      
+              android:background="@drawable/isw_title"
+              android:gravity="center">
+          </TextView>
+      
+       <LinearLayout
+         android:id="@+id/showtoself"
+         android:layout_height="40dp"
+         android:layout_width="290dp"
+         android:layout_centerHorizontal="true"
+         android:background="@drawable/isw_nb_list_background"
+       android:layout_marginTop="65dp">
+       <TextView
+         android:id="@+id/nb_kaiguanInfo" 
+         android:layout_marginLeft="20dp"
+         android:layout_gravity="center_vertical"
+         android:layout_height="wrap_content"
+         android:layout_width="wrap_content"
+         android:text="来显展示"
+         android:textColor="#0487d5"
+       />
+       <TextView
+         android:id="@+id/nb_checkinfo"
+         android:layout_marginLeft="147dp"
+         android:layout_gravity="center_vertical"
+         android:layout_height="wrap_content"
+         android:layout_width="wrap_content"
+         android:text="是"
+         android:textColor="#0487d5"
+       />
+       <RadioButton
+         android:id="@+id/kaiguan"
+         android:layout_marginLeft="2dp"
+         android:layout_gravity="center_vertical"
+         android:layout_height="wrap_content"
+         android:layout_width="wrap_content"
+       />
+       </LinearLayout>
+       
+       
+       
+       
+       
+       
+       
+       
+       
+        
+       
+       
+       
+       
+       
+       
+           
+      <!--   <ImageView
+         android:id="@+id/nb_check_newversion"
+         android:layout_marginTop="245dp"
+         android:layout_height="40dp"
+         android:layout_width="290dp"
+         android:layout_centerHorizontal="true"
+         android:background="@drawable/nb_list_clickbt"
+       />       
+       <TextView
+         android:id="@+id/nb_checkversion_text"
+         android:layout_marginLeft="30dp"
+         android:layout_marginTop="255dp"
+         android:layout_height="wrap_content"
+         android:layout_width="wrap_content"
+         android:text="检测新版本"
+         android:textColor="#0487d5"
+       />
+       <ImageView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="260dp"
+         android:layout_marginLeft="270dp"
+         android:background="@drawable/nb_setting_icon"
+           /> 
+       
+       
+       <ImageView
+         android:id="@+id/nb_helpbt"
+         android:layout_marginTop="295dp"
+         android:layout_height="40dp"
+         android:layout_width="290dp"
+         android:layout_centerHorizontal="true"
+         android:background="@drawable/nb_list_clickbt"
+       />       
+       <TextView
+         android:id="@+id/nb_help_text"
+         android:layout_marginLeft="30dp"
+         android:layout_marginTop="305dp"
+         android:layout_height="wrap_content"
+         android:layout_width="wrap_content"
+         android:text="使用帮助"
+         android:textColor="#0487d5"
+       />
+       <ImageView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="310dp"
+         android:layout_marginLeft="270dp"
+         android:background="@drawable/nb_setting_icon"
+           /> 
+       
+                    
+              
+       <ImageView
+         android:id="@+id/nb_freekback"
+         android:layout_marginTop="345dp"
+         android:layout_height="40dp"
+         android:layout_width="290dp"
+         android:layout_centerHorizontal="true"
+         android:background="@drawable/nb_list_clickbt"
+       />       
+       <TextView
+         android:id="@+id/nb_freekback_text"
+         android:layout_marginLeft="30dp"
+         android:layout_marginTop="355dp"
+         android:layout_height="wrap_content"
+         android:layout_width="wrap_content"
+         android:text="反馈"
+         android:textColor="#0487d5"
+       />
+       <ImageView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="360dp"
+         android:layout_marginLeft="270dp"
+         android:background="@drawable/nb_setting_icon"
+           /> 
+       
+       
+       <ImageView
+         android:id="@+id/nb_freekbt"
+         android:layout_marginTop="395dp"
+         android:layout_height="40dp"
+         android:layout_width="290dp"
+         android:layout_centerHorizontal="true"
+         android:background="@drawable/nb_list_clickbt"
+       />       
+       <TextView
+         android:id="@+id/nb_freekback_text"
+         android:layout_marginLeft="30dp"
+         android:layout_marginTop="405dp"
+         android:layout_height="wrap_content"
+         android:layout_width="wrap_content"
+         android:text="关于"
+         android:textColor="#0487d5"
+       />
+       <ImageView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="410dp"
+         android:layout_marginLeft="270dp"
+         android:background="@drawable/nb_setting_icon"
+           /> 
+       -->
+</RelativeLayout>      
+
+       </ScrollView> 

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:umadsdk="http://schemas.android.com/apk/res/tiger.unfamous"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/share_bg"
+        android:orientation="vertical" >
+
+        <include layout="@layout/custom_title_no_playing" />
+
+        <ListView
+            android:id="@+id/sharemenu"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:cacheColorHint="#00000000" />
+    </LinearLayout>
+
+    <include layout="@layout/night_mask" />
+
+</FrameLayout>

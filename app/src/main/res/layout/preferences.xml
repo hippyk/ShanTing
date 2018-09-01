@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen  xmlns:android="http://schemas.android.com/apk/res/android">  
+    
+     <!-- 注意！！修改默认值的时候Cfg里面的默认值也要相应修改，否则第一次安装启动有问题 -->
+	<PreferenceCategory android:title="播放增强">
+	    <tiger.unfamous.common.TimerPreference
+            android:key="timer_preference"
+            android:title="定时停止"
+            android:summary="多久之后自动停止播放"
+            android:defaultValue="100" />
+	     <CheckBoxPreference
+	      android:key="pref_auto_play_next"
+	      android:defaultValue="true"
+	      android:title="连续播放"
+	      android:summary="当前曲目播放完毕，自动播放下一首。注意：如果流量保护开启，非Wi-Fi情况下此选项会失效！" />   
+	    <CheckBoxPreference
+	      android:key="pref_show_list_after_finish"
+	      android:defaultValue="false"
+	      android:title="自动返回"
+	      android:summary="播放完毕，自动返回播放列表界面" /> 
+	    <CheckBoxPreference 
+	      android:key="pref_flight_mode_after_finish"
+	      android:defaultValue="false"
+	      android:title="自动飞行模式"
+	      android:summary="定时或定集播放结束后，自动进入飞行模式"/>
+	          
+	</PreferenceCategory>
+	
+	    
+	<PreferenceCategory android:title="流量与速度" >
+	     <CheckBoxPreference
+	      android:key="pref_web_nopic_mode"
+	      android:defaultValue="false"
+	      android:title="书城无图模式"
+	      android:summaryOff="去除书城图片，浏览更快速"
+	      android:summaryOn="已开启，您可以极速浏览书城" />	     
+	      <CheckBoxPreference
+	      android:key="pref_not_wifi_protect"
+	      android:defaultValue="true"
+	      android:title="流量保护"
+	      android:summary="在非Wi-Fi连接的情况下，下载和播放之前会弹出确认对话框。连播和下载过程中如果Wi-Fi断开也会停止消耗流量。"/>	    
+	</PreferenceCategory>
+	   
+	<PreferenceCategory android:title="下载设置" > 
+	      <CheckBoxPreference
+	      android:key="pref_wifi_auto_download"
+	      android:defaultValue="false"
+	      android:title="自动续传"
+	      android:summary="Wi-Fi连接恢复时，自动继续未完成的下载任务"	/>
+	      <tiger.unfamous.common.TextViewPreference
+          android:key="textview_preference"
+          android:title="下载目录"
+          android:defaultValue="false" />
+	</PreferenceCategory>
+	
+	    
+</PreferenceScreen>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/common_bg_color" >
+
+        <!--
+   <FrameLayout android:id="@+id/title_bar"
+	      android:layout_width="fill_parent"
+	      android:layout_height="wrap_content"
+	       >
+	      
+	   <RelativeLayout
+	       android:layout_width="fill_parent"
+	       android:layout_height="wrap_content"
+	       android:orientation="horizontal"
+	       android:layout_gravity="center_vertical"
+		   android:gravity="center_vertical" >
+
+		    <TextView
+			  android:id="@+id/text1"
+			  android:layout_width="wrap_content"
+			  android:layout_height="wrap_content"
+			  android:layout_marginLeft="15dp"
+			  android:layout_marginTop="20dp"
+			  android:textColor="#ffffffff" 
+			  android:singleLine="true"
+			  android:text="选择保存路径"
+			  android:gravity="center_horizontal"
+			  android:textStyle="bold"
+			  android:textSize="20sp"
+			  android:layout_alignParentLeft="true"
+			   />
+		       	   
+			<Button
+				android:id="@+id/newFolder"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="15dp"
+				android:paddingLeft="20dp"
+				android:paddingRight="20dp"
+				android:layout_alignParentRight="true"
+				android:layout_gravity="right" />
+	  </RelativeLayout>
+   </FrameLayout>
+        -->
+
+        <include layout="@layout/custom_title_no_playing" />
+
+        <include layout="@layout/select_path_title" />
+
+        <!--
+       ProgressBar android:id="@+id/header"
+	   android:layout_width="wrap_content"
+	   android:layout_height="wrap_content"
+	   android:indeterminateOnly="true"
+	   /
+        -->
+
+        <ListView
+            android:id="@+id/songslist"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:cacheColorHint="#00000000" />
+
+        <!-- <include layout="@layout/adview_ad" /> -->
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50dip" >
+
+            <Button
+                android:id="@+id/confirm"
+                android:layout_width="wrap_content"
+                android:layout_height="50dip"
+                android:layout_weight="1"
+                android:text="确定" />
+
+            <Button
+                android:id="@+id/cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="50dip"
+                android:layout_weight="1"
+                android:text="取消" />
+        </LinearLayout>
+
+    </TableLayout>
+	<include layout="@layout/night_mask" />
+</RelativeLayout>

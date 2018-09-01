@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="wrap_content"
+	android:padding="2dip"
+	android:layout_weight="0">
+	
+	<LinearLayout android:id="@+id/LinearLayout01"
+		android:layout_width="40dip" android:layout_height="48dip"
+		android:gravity="center_vertical|center_horizontal">
+		<ImageView android:id="@+id/file_image"
+			android:background="@drawable/stat_downloading"
+			android:scaleType="center"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content" />
+	</LinearLayout>
+	
+	<LinearLayout android:layout_width="wrap_content" 
+	    android:layout_height="fill_parent"
+	    android:orientation="vertical"
+	    android:layout_weight="1"
+	    android:padding="2dp" >    
+	    
+		<TextView android:id="@+id/file_name"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"			
+			android:singleLine="true" 
+			android:textColor="@android:color/primary_text_light"
+			android:ellipsize="end"
+			android:textSize="15sp" 
+			android:layout_weight="0.7" />
+		
+		<ProgressBar android:id="@+id/progress_horizontal"
+			style="?android:attr/progressBarStyleHorizontal"
+			android:layout_height="wrap_content" 
+			android:layout_width="fill_parent"
+			android:max="100" />  
+	</LinearLayout>
+	
+	<LinearLayout android:layout_width="wrap_content" 
+	    android:layout_height="fill_parent"
+	    android:orientation="vertical"
+	    android:layout_weight="0"
+	    android:paddingTop="3dp" >
+		
+		<TextView android:id="@+id/file_size" 
+			android:layout_height="wrap_content"
+			android:layout_width="50dp"
+			android:singleLine="true" 
+			android:text="3.5M"
+			android:textColor="@android:color/primary_text_light"
+			android:textSize="14sp"
+			android:layout_weight="0.7"
+			android:layout_gravity="right"
+			android:gravity="right"/>
+			
+		<TextView android:id="@+id/file_progress" 
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:singleLine="true" 
+			android:text="3.5%"
+			android:paddingTop="3dp"
+			android:textColor="@android:color/primary_text_light"
+			android:textSize="13sp"
+			android:layout_gravity="right"
+			android:gravity="right" />		
+	</LinearLayout>
+
+</LinearLayout>

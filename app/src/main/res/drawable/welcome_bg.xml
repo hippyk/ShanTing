@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item>
+        <shape android:shape="rectangle">
+		   
+		    <gradient
+		        android:startColor="#fffffffe"
+		        android:endColor="@color/welcome_bg"
+		        android:gradientRadius="480"
+		        android:centerY="0.5"
+		        android:type="radial"
+		        />
+		</shape>
+     </item>
+      
+      <!-- 
+     <item>
+	  <bitmap android:src="@drawable/welcome_background"/>
+	</item> -->
+	
+	<!-- 
+	 <item>
+	  <bitmap android:src="@drawable/welcome_header"
+	          android:gravity="top"/>
+	           
+	</item>-->
+	
+	 <item >
+	  <bitmap android:src="@drawable/welcome_logo"
+	          android:gravity="center"/>
+	</item>
+	
+	     <!-- 
+	 <item>
+	  <bitmap android:src="@drawable/welcome_footer"
+	          android:gravity="bottom"/>
+	 </item> -->
+	
+	     
+	<item android:bottom="10dp">
+	    <!-- 空的logo，如果是安智市场，会替换成anzhilogo -->
+	  <bitmap android:src="@drawable/welcome_logo_empty"
+	          android:gravity="bottom"/>
+	</item> 
+    
+</layer-list>

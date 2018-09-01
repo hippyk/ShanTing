@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal" android:layout_width="fill_parent"
+	android:gravity="center_vertical" android:layout_height="100dp">
+	<ImageView android:id="@+id/icon" android:layout_height="60dp" android:layout_width="60dp" android:layout_marginTop="10dp" android:layout_marginBottom="10dp" android:layout_marginLeft="5dp" android:src="@drawable/isw_defaulticon"></ImageView>
+	<LinearLayout android:id="@+id/LinearLayout01"
+		android:layout_height="wrap_content" android:orientation="vertical"
+		android:layout_marginLeft="2dp" android:layout_width="135dp">
+		<LinearLayout android:id="@+id/LinearLayout02"
+			android:layout_height="wrap_content" android:layout_width="135dp">
+			<TextView android:text="@+id/TextView01" android:id="@+id/name"
+				android:textColor="#000000" android:layout_height="wrap_content"
+				android:textSize="16sp" android:layout_width="110dp"></TextView>
+			<ImageView android:id="@+id/phoneType"
+				android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_marginTop="5dp"></ImageView>
+		</LinearLayout>
+		<TextView android:text="@+id/TextView02"
+			android:layout_height="wrap_content"
+			android:id="@+id/phoneNumber" android:textColor="#838280" android:layout_width="wrap_content"></TextView>
+	</LinearLayout>
+
+
+
+
+	<LinearLayout android:id="@+id/LinearLayout03"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:orientation="vertical">
+		<TextView android:layout_height="wrap_content" android:text="9:30"
+			android:textColor="#ffffff" android:id="@+id/duration" android:textSize="16sp" android:layout_width="fill_parent" android:gravity="center"></TextView>
+		<TextView android:text="@+id/TextView01"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:id="@+id/time" android:textColor="#ffffff" android:textSize="10sp"></TextView>
+		<TextView android:text="@+id/TextView01"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:id="@+id/time1" android:textColor="#ffffff" android:textSize="10sp"></TextView>
+	</LinearLayout>
+
+
+
+	<ImageView android:id="@+id/ImageView01"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:background="@drawable/isw_icon_16" android:layout_marginLeft="5dp"></ImageView>
+</LinearLayout>

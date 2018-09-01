@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="isw_app_name">企业名片</string>
+    <string name="isw_callhistory_title">企业名片通话记录</string>
+    <string name="isw_about">关于</string>
+    <string name="isw_setting">设置</string>
+    <string name="isw_unknow_number">未知号码</string>
+    <string name="isw_tip">提示</string>
+    <string name="isw_confirm_del_one_record">确定要删除此项记录吗？</string>
+    <string name="isw_confirm">确认</string>
+    <string name="isw_cancel">取消</string>
+    <string name="isw_confirm_del_all_records">确定要全部删除吗？</string>
+    <string name="isw_callout">呼出</string>
+    <string name="isw_del_one_record">删除此项通话记录</string>
+    <string name="isw_del_all_records">删除全部通话记录</string>
+    <string name="isw_app_full_name">应用名称：企业名片</string>
+    <string name="isw_version">版本号：</string>
+    <string name="isw_copyright">版权所有：中大网视(北京)科技有限公司</string>
+    <string name="isw_web_url">业务网站：http://www.ishow.189.cn</string>
+    <string name="isw_yes">是</string>
+    <string name="isw_no">否</string>
+    <string name="isw_showcc_on">来显展示已开启</string>
+    <string name="isw_showcc_off">来显展示已关闭</string>
+    <string name="isw_channel">识别号：</string>
+    <string name="isw_imsi">imsi号：</string>
+</resources>

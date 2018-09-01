@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:background="@drawable/isw_main_bg" android:gravity="center_horizontal">
+
+	<RelativeLayout android:id="@+id/RelativeLayout01"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:background="@drawable/isw_title">
+		<TextView android:id="@+id/TextView01" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_below="@+id/RelativeLayout01"
+			android:layout_centerInParent="true" android:text="@string/isw_callhistory_title"
+			android:textColor="#ffffff" android:textSize="22sp"></TextView>
+	</RelativeLayout>
+
+	<ListView android:id="@+id/ListView01" android:layout_below="@+id/RelativeLayout01"
+		android:layout_height="fill_parent" android:fadingEdge="none"
+		android:layout_centerHorizontal="true" android:layout_width="300dp" android:cacheColorHint="#00000000" android:scrollbars="none" android:layout_marginBottom="20dp" android:layout_marginTop="20dp" android:background="@drawable/isw_bg_chajian" android:divider="#5ba6ce" android:focusable="true">
+
+	</ListView>
+	<TextView android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_centerInParent="true"
+		android:visibility="gone" android:text="当前还没有通话记录" android:textSize="20sp"
+		android:textColor="#ffffff" android:id="@+id/tips"></TextView>
+</RelativeLayout>
